@@ -1,0 +1,23 @@
+figure{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: auto;
+
+    img{
+        padding-bottom: 2%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #figcaption{
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 1.5em;
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

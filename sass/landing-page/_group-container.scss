@@ -1,0 +1,46 @@
+.group-container{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+
+    .text{
+        width: 50%;
+        height: auto;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150%;
+        line-height: 1.5em;
+        color: #111111;
+    }
+
+    .services{
+        width: 35%;
+        height: auto;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 120%;
+        line-height: 1.5em;
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .services-box{
+            display: flex;
+            flex-direction: column;
+
+            a:hover{
+                color: rgb(11, 91, 241);
+            }
+        }
+    }
+}

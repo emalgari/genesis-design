@@ -1,0 +1,47 @@
+.heading-container{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+    gap: 1em;
+
+    .title{
+        width: 50%;            
+        height: 20%;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 120%;
+        line-height: 200%;
+        
+        color: #111111;
+
+        span, p{
+            color: #4A4FF2;
+        }
+    }
+
+    .quote{
+        width: auto;
+        height: 5%;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 120%;
+        line-height: 200%;
+        
+        color: #111111;
+        align-self: flex-end;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .line{
+            align-self: flex-start;
+        }
+    }
+}

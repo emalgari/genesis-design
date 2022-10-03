@@ -1,0 +1,43 @@
+footer{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .quick-links{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5em;
+
+        .nav-links{
+            font-family: 'Mulish', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 23px;
+            
+            color: #111111;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+
+            a:hover{
+                color: rgb(81, 79, 79);
+            }
+        }
+
+        .social-media{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1em;
+        }
+    }    
+}

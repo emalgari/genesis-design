@@ -1,0 +1,60 @@
+*{
+    a {
+        text-decoration: none;
+        color: black;
+        svg{
+            width: 8%;   
+        }
+        svg:hover{
+            fill: rgb(81, 79, 79);
+            width: 10%;
+            transition: 0.5s ease-in-out; 
+        }
+    }
+
+    .logo{
+        width: auto;
+        height: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.menu{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: 10%;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #111111;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+        li{
+            list-style: none;
+            
+            a:hover{
+                color:rgb(81, 79, 79); 
+                transition: 1s ease-in-out; 
+            }
+        }
+
+    }
+}

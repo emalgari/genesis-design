@@ -1,0 +1,34 @@
+.form{
+    margin: 5% 2% 0 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    .text-box, .email-box{
+        border: none;
+        border-bottom: 1px solid lightgray;
+        color: #272cb4;
+        font-family: 'Mulish', sans-serif;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background-color: #4A4FF2;
+        border-style: none;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .btn:hover{
+        background-color: #272cb4;
+        color: white;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+}

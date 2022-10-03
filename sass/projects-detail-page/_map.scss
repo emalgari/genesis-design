@@ -1,0 +1,14 @@
+.map{
+    margin: 6% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}

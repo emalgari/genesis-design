@@ -1,0 +1,82 @@
+.awards-conatainer{
+    margin: 1% 5% 3% 5%;
+    padding: 0 1% 0 1%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+
+    h3{
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #111111;
+    }
+
+    h4{
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        color: #111111;
+    }
+
+    h5{
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #111111;
+    }
+
+    p{
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+
+    .year{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        color: #111111;
+    }
+
+    .award-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .awards{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap:1em;   
+    }
+
+    .design-awards{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap:1em;
+    }
+
+    .divider{
+        width: 100%;
+    }
+}
